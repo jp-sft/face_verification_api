@@ -131,7 +131,7 @@ async def _verify(
     results = face_recognition.compare_faces(known_encodings, image_encoding)
 
     # Return True if the given image is of the given person, False otherwise
-    return any(results), "No match found" if not any(results) else None
+    return any(results), "No match found" if not any(results) else "Match found"
 
 
 if __name__ == "__main__":
