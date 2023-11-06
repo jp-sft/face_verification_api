@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "face_verification_api"
+version = "0.1.0"
+description = "Face Verification API with fastapi and face_recognition"
+authors = ["Jessy Pango <kvnjessy@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+fastapi = "^0.104.1"
+face-recognition = "^1.3.0"
+uvicorn = "^0.24.0"
+python-multipart = "^0.0.6"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
