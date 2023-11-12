@@ -129,7 +129,7 @@ async def _verify(
 
     # Return True if the given image is of the given person, False otherwise
     found = any(results)
-    msg = "Pas de résultat trouvé" if not found else None
+    msg = "Pas de résultat trouvé" if not found else "trouvé"
     return found, msg
 
 
